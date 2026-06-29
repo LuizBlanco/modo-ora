@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root {
+    --primary-color: #f8d824;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+nav {
+    width: 100vw;
+    height: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+}
+
+.Logo-image {
+    padding-left: 5rem;
+}
+
+.Logo-image img {
+    width: 8rem;
+}
+
+.menu  {
+    display: flex;
+    padding-right: 7rem;
+    gap: 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    border: 1px var(--primary-color) solid;
+    padding: 10px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+.intro-header {
+    max-width: 127.6rem;
+    margin: auto;
+    
+
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    background-image: linear-gradient(to top, yellow, white);
+}
+
+.intro-header h1 {
+    font-size: 2.7rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.intro-header img {
+    width: 30rem;
+    padding-right: 4rem;
+}
+
+.content-top {
+    padding-left: 6rem;
+}
+
+.intro-header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+    padding: .8rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    
+}
+
+.intro-header a:hover {
+
+    background-color: #f3d322;
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+   
+}
+
+
+.cursos-card {
+   display: flex;
+   max-width: 127.6rem;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 3rem 0 3rem;
+   justify-content: space-around;
+
+
+   
+}
+
+
+.cards {
+    max-width: 20rem;
+    width: 100%;
+
+    border-radius: 4px;
+    border: 2px solid #dcd4d43c;
+ 
+
+    display: flex;
+    flex-direction: column                                              
+};
+
+.cards img {
+    width: 100%;
+    display: block;
+}
+
+.cards h3 {
+    margin: 2rem 2rem 1.5rem
+}
+
+.cards p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0 2rem 2rem ;
+    
+}
+
+.content-hero a {
+   text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+    padding: .8rem;
+    margin: 5rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    
+    
+}
+
+.content-hero h2 {
+    padding: 3rem;
+}
+
+.sobre-nos {
+    width: 100%;
+    max-width: 120rem;
+   
+    display: flex;
+    flex-direction: row-reverse;
+
+   
+
+    background-color: #003464;
+}
+
+.container-escola {
+    padding: 3rem 5rem 5rem 5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    color: #fff;
+}
+
+.container-escola h2 {
+    font-size: 1.8rem;
+}
+
+.container-escola p {
+
+    font-size: 1.1rem;
+
+
+}
+
+
+.container-image-banner{
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-image-banner img {
+    width: 35rem;
+    display: block;
+    height: auto;
+    
+}
+
+.content-end {
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 3rem 3rem 3rem;
+}
+
+
+.content-end img {
+   display: block;
+   height: auto;
+   width: 100%;
+    
+    
+    
+}
+
+.contatos {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos h2 {
+    font-size: 2rem;
+    padding: 4rem;
+}
+
+.informacoes {
+    text-align: end;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.informacoes p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+.rodape {
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    max-width: 120rem;
+}
+
+.rodape h3 {
+    text-align: center;
+    padding: 1.4rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
